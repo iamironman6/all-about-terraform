@@ -9,7 +9,7 @@ resource "aws_instance" "saikrishna" {
   associate_public_ip_address = true
 }
 
-resource "aws_instance" "saikrishna2" {
+resource "aws_instance" "vamsikrishna" {
   instance_type = "t2.micro"
   ami = "ami-0360c520857e3138f"
   subnet_id = "subnet-0a962de0379008d44"
