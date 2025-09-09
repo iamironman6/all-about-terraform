@@ -1,9 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "konchada-s3-demo-xyz"
-    key = "saikrishna/terraform.tfstate"
+    bucket = "saikrishna-konchada-demo-2"
+    key = "state_files/terraform.tfstate"
     region = "us-east-1"
-    encrypt = true
-    dynamodb_table = "terraform-lock"
+    dynamodb_table = "terraform-locks"
   }
 }
