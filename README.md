@@ -1,5 +1,5 @@
 # all-about-terraform
-This repo explains about the overview of terraform 
+This repo refers to terraform knowledge
 
 terraform init
 
