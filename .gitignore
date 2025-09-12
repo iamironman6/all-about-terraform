@@ -1,0 +1,12 @@
+# Terraform-specific
+.terraform/
+.terraform.lock.hcl
+
+# Optional: local TF files
+*.tfstate
+*.tfstate.backup
+
+# Optional: IDE/editor files
+.vscode/
+.idea/
+.DS_Store
